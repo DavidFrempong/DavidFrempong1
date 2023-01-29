@@ -1255,15 +1255,16 @@ text-decoration: underline;
 	clear: both;
 	float: left;
 	position: relative;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .foliox_tm_portfolio .portfolio_list ul li .image{
 	position: relative;
 }
 .foliox_tm_portfolio .portfolio_list ul li .image img{
 	position: relative;
-	opacity: 0;
+	/* opacity: 0; */
 	min-width: 100%;
+	border-radius: 15px;
 }
 .foliox_tm_portfolio .portfolio_list ul li .image .main{
 	position: absolute;
@@ -1301,7 +1302,7 @@ text-decoration: underline;
 	font-size: 16px;
 }
 .foliox_tm_portfolio .portfolio_list ul li .list_inner:hover .details{
-	transform: translateY(0);
+	/* transform: translateY(0); */
 }
 .foliox_tm_full_link{
 	position: absolute;
