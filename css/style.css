@@ -525,6 +525,11 @@ text-decoration: underline;
 	clear: both;
 	float: left;
 }
+.foliox_tm_button.outline a{
+background: none;
+border: 2px solid #00c0ff;
+}
+
 .foliox_tm_button a{
 	font-family: var(--font-family-extra);
 	color: #fff;
