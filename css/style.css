@@ -140,6 +140,8 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	position: relative;
+	/* background: rgb(247,254,255);
+	background: linear-gradient(180deg, rgba(247,254,255,1) 0%, rgba(227,252,255,1) 100%); */
 }
 .foliox_tm_all_wrap,
 .foliox_tm_all_wrap *{
