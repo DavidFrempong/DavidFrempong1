@@ -1276,14 +1276,29 @@ border: 2px solid #00c0ff;
 	position: relative;
 	/* opacity: 0; */
 	min-width: 100%;
-	border-radius: 15px;
+	border-radius: 5px;
+	height: 250px !important;
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (max-width: 1600px) {
 	.foliox_tm_portfolio .portfolio_list ul li .image img{
-		height: 205px;
+		height: 200px !important;
 	}
 }
+
+@media screen and (max-width: 1040px) {
+	.foliox_tm_portfolio .portfolio_list ul li .image img {
+		height: 250px !important;
+	}
+  }
+
+@media screen and (max-width: 770px) {
+	.foliox_tm_portfolio .portfolio_list ul li .image img {
+	  max-width: 100%; /* Ensure the image doesn't exceed its container */
+	  height: auto !important; /* Let the browser calculate the height based on the image's aspect ratio */
+	}
+  }
+  
 
 .foliox_tm_portfolio .portfolio_list ul li .image .main{
 	position: absolute;
