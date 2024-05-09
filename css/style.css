@@ -1280,13 +1280,13 @@ border: 2px solid #00c0ff;
 	height: 250px !important;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
 	.foliox_tm_portfolio .portfolio_list ul li .image img{
 		height: 250px !important;
 	}
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1599px) {
 	.foliox_tm_portfolio .portfolio_list ul li .image img{
 		height: 210px !important;
 	}
