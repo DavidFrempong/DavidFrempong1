@@ -1286,6 +1286,12 @@ border: 2px solid #00c0ff;
 	}
 }
 
+@media screen and (max-width: 1400px) {
+	.foliox_tm_portfolio .portfolio_list ul li .image img{
+		height: 210px !important;
+	}
+}
+
 @media screen and (max-width: 1040px) {
 	.foliox_tm_portfolio .portfolio_list ul li .image img {
 		height: 250px !important;
