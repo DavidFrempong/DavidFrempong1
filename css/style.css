@@ -54,9 +54,9 @@ body{
 	letter-spacing: 0px;
 	word-wrap: break-word;
 	font-weight: 400;
-	background-color: #1e1345;
-	color: var(--main-color);
-	background-image: url(..//img/hero/1.jpg);
+	background-color: #0a0a0afff;
+	color: #0a0a0a;
+	/* background-image: url(..//img/hero/1.jpg); */
 }
 
 svg{
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6{
 	font-weight:600;
 	line-height: 1.3;
 	font-family: var(--font-family-extra);
-	color: #fff;
+	color: #0a0a0a;
 }
 
 h1 { font-size: 45px; }
@@ -168,7 +168,7 @@ h6 { font-size: 16px; }
     width: 50%;
     height: 100%;
     z-index: -1;
-    background-color: #fff;
+    background-color: #0a0a0a;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -292,19 +292,19 @@ h6 { font-size: 16px; }
 	height: auto;
 	float: left;
 	clear: both;
-	background-color: #1e1345;
+	background-color: #efefef;
 	border-bottom: 1px solid rgba(255,255,255,.1);
 	padding: 10px 20px 10px 20px;
 }
 .hamburger-inner, 
 .hamburger-inner:after, 
 .hamburger-inner:before{
-	background-color: #fff;
+	background-color: #0a0a0a;
 }
 .hamburger.is-active .hamburger-inner, 
 .hamburger.is-active .hamburger-inner:after, 
 .hamburger.is-active .hamburger-inner:before{
-	background-color: #fff;
+	background-color: #0a0a0a;
 }
 .foliox_tm_mobile_menu .mobile_in{
 	width: 100%;
@@ -317,7 +317,7 @@ h6 { font-size: 16px; }
 }
 
 .anchor {
-	color: #ffffff;
+	color: #00c0ff;
 	font-weight: 700;
 	opacity: 1 !important;
 }
@@ -360,7 +360,7 @@ text-decoration: underline;
 }
 .foliox_tm_mobile_menu .dropdown .dropdown_inner ul li a{
 	text-decoration: none;
-	color: #fff;
+	color: #0a0a0a;
 	display: inline-block;
 	padding: 0px 0px;
 	font-weight: 500;
@@ -397,7 +397,7 @@ text-decoration: underline;
 	        transition: all .3s ease;
 }
 .foliox_tm_header.animate{
-	background-color: #1e1345;
+	background-color: #efefef;
 	padding: 30px 0px;
 }
 .foliox_tm_header .inner{
@@ -436,7 +436,7 @@ text-decoration: underline;
 	margin-right: 0px;
 }
 .foliox_tm_header .menu ul li a{
-	color: #fff;
+	color: #0a0a0a;
 	font-family: var(--font-family-extra);
 	
 	-webkit-transition: all .3s ease;
@@ -474,7 +474,7 @@ text-decoration: underline;
 	margin-right: 0px;
 }
 .foliox_tm_header .social ul li a{
-	color: #fff;
+	color: #0a0a0a;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -513,7 +513,7 @@ text-decoration: underline;
 	color: var(--extra-color);
 }
 .foliox_tm_hero .job{
-	color: #fff;
+	color: #0a0a0a;
 	font-size: 23px;
 	font-weight: 500;
 	font-family: var(--font-family-extra);
@@ -533,7 +533,7 @@ border: 2px solid #00c0ff;
 
 .foliox_tm_button a{
 	font-family: var(--font-family-extra);
-	color: #fff;
+	color: #ffffff;
 	display: inline-block;
 	background-color: var(--extra-color);
 	padding: 18px 43px;
@@ -558,7 +558,7 @@ border: 2px solid #00c0ff;
 	right: -10px;
 	bottom: -10px;
 	top: -10px;
-	background-color: #fff;
+	background-color: #0a0a0a;
 	transform: translateY(100%);
 	
 	-webkit-transition: all .3s ease;
@@ -752,7 +752,7 @@ border: 2px solid #00c0ff;
 .foliox_tm_about .experience .inner span{
 	font-size: 22px;
 	font-family: var(--font-family-extra);
-	color: #fff;
+	color: #0a0a0a;
 	line-height: 32px;
 	padding-left: 20px;
 }
@@ -809,7 +809,7 @@ border: 2px solid #00c0ff;
 	font-family: var(--font-family-extra);
 	font-size: 16px;
 	font-weight: 500;
-	color: #fff;
+	color: #0a0a0a;
 	display: inline-block;
 }
 .foliox_tm_about .right .item li p{
@@ -869,7 +869,7 @@ border: 2px solid #00c0ff;
 }
 .foliox_tm_counter .counter_list ul li .title{
 	font-size: 18px;
-	color: #fff;
+	color: #0a0a0a;
 	font-family: var(--font-family-extra);
 	font-weight: 500;
 	display: inline-block;
@@ -927,7 +927,7 @@ border: 2px solid #00c0ff;
 	opacity: 0;
 	transform: translateY(10px);
 	display: block;
-	color: #fff;
+	color: #0a0a0a;
 	font-size: 18px;
 	font-weight: 500;
 	font-family: var(--font-family-extra);
@@ -1020,7 +1020,7 @@ border: 2px solid #00c0ff;
 	clear: both;
 	float: left;
 	position: relative;
-	background-color: #3a2b71;
+	background-color: #effaff;
 	border-radius: 10px;
 	text-align: center;
 	padding: 105px 65px 70px 65px;
@@ -1031,7 +1031,7 @@ border: 2px solid #00c0ff;
 	width: 65px;
 	height: 65px;
 	border-radius: 100%;
-	background-color: #432d92;
+	background-color: #6afaff;
 	margin-bottom: 53px;	
 }
 .foliox_tm_services .list ul li .icon:before{
@@ -1039,7 +1039,7 @@ border: 2px solid #00c0ff;
 	content: "";
 	width: 100%;
 	height: 100%;
-	background-color: #fff;
+	background-color: #0a0a0a;
 	border-radius: 100%;
 	left: 0px;
 	transform: scale(0);
@@ -1070,7 +1070,7 @@ border: 2px solid #00c0ff;
 	        transition: all .3s ease;
 }
 .foliox_tm_services .list ul li .list_inner:hover .icon .svg{
-	color: #fff;
+	color: #5851e5;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
@@ -1083,7 +1083,7 @@ border: 2px solid #00c0ff;
 }
 
 .tilt-effect .text{
-	color: #d7d7d7;
+	color: #0a0a0a;
 }
 
 /*---------------------------------------------------*/
@@ -1172,7 +1172,7 @@ border: 2px solid #00c0ff;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	color: #fff;
+	color: #0a0a0a;
 }
 .resume_list .resume_title{
 	width: 100%;
@@ -1192,7 +1192,7 @@ border: 2px solid #00c0ff;
 }
 .resume_list .company{
 	font-size: 18px;
-	color: #fff;
+	color: #0a0a0a;
 	font-family: var(--extra-color);
 	font-weight: 600;
 }
@@ -1228,7 +1228,7 @@ border: 2px solid #00c0ff;
 	margin-right: 0px;
 }
 .foliox_tm_portfolio .portfolio_filter ul li a{
-	color: #fff;
+	color: #0a0a0a;
 	font-family: var(--font-family-extra);
 	font-weight: 500;
 	
@@ -1323,7 +1323,7 @@ border: 2px solid #00c0ff;
 	bottom: 20px;
 	left: 20px;
 	right: 20px;
-	background-color: #1e1345;
+	/* background-color: #dcf6ff; */
 	padding: 20px;
 	border-radius: 12px;
 	transform: translateY(125%);
@@ -1410,8 +1410,8 @@ border: 2px solid #00c0ff;
 	width: 40px;
 	height: 40px;
 	text-decoration: none;
-	color: #fff;
-	border:2px solid #fff;
+	color: #0a0a0a;
+	border:2px solid #0a0a0a;
 	border-radius: 10px;
 	position: relative;
 	
@@ -1558,7 +1558,7 @@ border: 2px solid #00c0ff;
     font-weight: 500;
 	font-size: 18px;
 	display: block;
-	color: #fff;
+	color: #0a0a0a;
 	font-family: var(--font-family-extra);
 }
 .foliox_tm_modalbox .main_details .detailbox span{
@@ -1668,7 +1668,7 @@ border: 2px solid #00c0ff;
 	font-size: 30px;
 	font-style: italic;
 	line-height: 1.6;
-	color: #fff;
+	color: #0a0a0a;
 }
 .foliox_tm_testimonials .short{
 	width: auto;
@@ -1718,7 +1718,7 @@ border: 2px solid #00c0ff;
 	left: 1px;
 	right: 1px;
 	border-radius: 100%;
-	border: 2px solid #fff;
+	border: 2px solid #0a0a0a;
 	z-index: -1;
 	
 	-webkit-transition: all .5s ease;
@@ -1879,7 +1879,7 @@ border: 2px solid #00c0ff;
 	line-height: 1.4;
 }
 .foliox_tm_news .news_list ul li .title a{
-	color: #fff;
+	color: #0a0a0a;
 	display: inline-block;
 	font-size: 21px;
 	
@@ -2000,7 +2000,8 @@ border: 2px solid #00c0ff;
 	height: 88px;
 	border-radius: 100%;
 	position: relative;
-	background-color: var(--extra-color);
+	/* background-color: var(--extra-color); */
+	background-color: #e3f7ff;
 }
 .foliox_tm_contact .left .icon i{
 	position: absolute;
@@ -2008,7 +2009,7 @@ border: 2px solid #00c0ff;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	font-size: 24px;
-	color: #fff;
+	color: #0a0a0a;
 }
 .foliox_tm_contact .left .short{
 	padding-left: 25px;
@@ -2019,7 +2020,7 @@ border: 2px solid #00c0ff;
 }
 .foliox_tm_contact .left .short a{
 	text-decoration: none;
-	color: #b4afc6;
+	color: #0a0a0a;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -2152,7 +2153,7 @@ input[type=number] {
 	margin-bottom: 5px;
 }
 .foliox_tm_subscribe .title{
-	color: #fff;
+	color: #0a0a0a;
 	font-size: 48px;
 	margin-bottom: 10px;
 }
@@ -2169,7 +2170,7 @@ input[type=number] {
 	height: 72px;
 	border-radius: 12px;
 	color: #6f6b80;
-	background-color: #fff;
+	background-color: #0a0a0a;
 	padding-left: 30px;
 }
 .foliox_tm_subscribe .field input[type="text"]:focus{
@@ -2182,7 +2183,7 @@ input[type=number] {
 	height: 72px;
 	border-top-right-radius: 12px;
 	border-bottom-right-radius: 12px;
-	color: #fff;
+	color: #0a0a0a;
 	font-family: var(--font-family-extra);
 	font-size: 18px;
 	text-transform: capitalize;
@@ -2207,7 +2208,7 @@ input[type=number] {
 	font-family: var(--font-family-extra);
 }
 .foliox_tm_copyright a{
-	color: #fff;
+	color: #0a0a0a;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -2313,7 +2314,7 @@ input[type=number] {
 }
 .progressbar a{
 	text-decoration: none;
-	color: #fff;
+	color: #0a0a0a;
 }
 
 /*---------------------------------------------------*/
