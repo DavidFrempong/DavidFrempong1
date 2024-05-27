@@ -293,7 +293,7 @@ h6 { font-size: 16px; }
 	height: auto;
 	float: left;
 	clear: both;
-	background-color: #efefef;
+	background-color: #ffffff;
 	border-bottom: 1px solid rgba(255,255,255,.1);
 	padding: 10px 20px 10px 20px;
 }
@@ -398,7 +398,7 @@ text-decoration: underline;
 	        transition: all .3s ease;
 }
 .foliox_tm_header.animate{
-	background-color: #efefef;
+	background-color: #ffffff;
 	padding: 30px 0px;
 }
 .foliox_tm_header .inner{
@@ -2481,6 +2481,126 @@ input[type=number] {
 	.foliox_tm_subscribe .field input[type="submit"]{font-size: 15px;}
 	.foliox_tm_counter .counter_list ul li .list_inner{padding: 50px 40px 40px 40px;}
 	.foliox_tm_testimonials .text p{font-size: 18px;}
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.modal-content h2{
+	margin: 10px 0px 20px 0px;
+}
+
+.fallback-link{
+	margin: 10px 0px;
+	text-decoration: underline;
+	color: #6e80f7;
+}
+
+.fallback-link a {
+	color: #6e80f7;
+}
+
+.video-container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Full viewport height */
+    width: 100vw;  
+}
+
+.bar {
+    width: calc(100vw - 20%); 
+	max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 10%;
+	position: relative;
+	top: 50px;
+	margin-bottom: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.image-container img {
+    height: 90px;
+    width: auto;
+	border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+	.bar {
+		display: grid;
+		grid-template-columns: auto auto;
+		margin-bottom: 350px;
+	}
+	
+	
+.image-container {
+   margin: 25px 0px;
+}
 }
 
 .modal {
